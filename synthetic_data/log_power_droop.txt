@@ -1,0 +1,15 @@
+================================================================================
+ATE BURN-IN SYSTEM LOG - LOT_ID: INTL_7320_W04 - DATE: 2026-10-20
+================================================================================
+DUT_ID: 4 | SOCKET: 4 | DIB_REV: 3.2 | TESTER_HEAD: TH-02
+TEST_MODULE: ALL_CORES_ATPG_MAX | PATTERN_SET: DI_DT_STRESS_V2
+CHUCK_TEMP: 75.0 C | TJ_BASE: 76.0 C | TJ_PEAK: 89.4 C
+VDD_NOM: 1.10 V | V_FORCE: 1.100 V | VDD_DROOP_VAL: 0.985 V
+R_CONT: 118.0 mOhm
+FAIL_CYCLE: 82910
+FAIL_PINS: [PIN_CORE_PLL_LOCK, PIN_BUS_VALID]
+STATUS: FAIL_VOLTAGE_DROOP_TIMEOUT
+REGISTER_DUMPS:
+  0x0030_0010 = 0x0000_0040
+DIAGNOSTIC_MSG: Core PLL lost lock during di/dt current burst. Supply droop: 10.5%.
+================================================================================

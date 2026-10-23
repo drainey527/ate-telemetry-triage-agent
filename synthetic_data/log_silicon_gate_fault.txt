@@ -1,0 +1,16 @@
+================================================================================
+ATE BURN-IN SYSTEM LOG - LOT_ID: INTL_7320_W04 - DATE: 2026-10-20
+================================================================================
+DUT_ID: 2 | SOCKET: 2 | DIB_REV: 3.2 | TESTER_HEAD: TH-01
+TEST_MODULE: SCAN_STUCK_AT | PATTERN_SET: L2_CACHE_TAG_SCAN
+CHUCK_TEMP: 65.0 C | TJ_BASE: 66.0 C | TJ_PEAK: 71.2 C
+VDD_NOM: 0.95 V | V_FORCE: 0.950 V | VDD_MIN: 0.941 V
+R_CONT: 110.2 mOhm
+VECTOR_OFFSET: 1048576 | ERROR_STROBE: STUCK_AT_0
+FAIL_PINS: [PIN_SCAN_OUT_12]
+STATUS: FAIL_PATTERN_DATA_MISMATCH
+REGISTER_DUMPS:
+  0x0020_0100 = 0x0000_0000
+  0x0020_0104 = 0xFFFF_0000
+DIAGNOSTIC_MSG: SCAN stuck-at-0 verified across 5 consecutive pattern restarts. Clean fixture.
+================================================================================

@@ -1,0 +1,17 @@
+================================================================================
+ATE BURN-IN SYSTEM LOG - LOT_ID: INTL_7320_W04 - DATE: 2026-10-20
+================================================================================
+DUT_ID: 3 | SOCKET: 3 | DIB_REV: 3.2 | TESTER_HEAD: TH-02
+TEST_MODULE: ATPG_BURST_STRESS | PATTERN_SET: CORE_TILES_SCAN_REV4
+CHUCK_TEMP: 72.0 C | TJ_BASE: 74.5 C | TJ_PEAK: 84.1 C
+VDD_NOM: 1.05 V | V_FORCE: 1.050 V | V_SENSE_MIN: 1.032 V
+R_CONT: 512.4 mOhm | CONTACT_LIMIT: 250.0 mOhm [WARNING: CONTACT DRIFT]
+VECTOR_OFFSET: 419204 | ERROR_STROBE: CYCLE_419204
+CHANNELS: [PIN_CLK_IN, PIN_SCAN_OUT_4]
+STATUS: FAIL_VECTOR_MISMATCH
+REGISTER_DUMPS:
+  0x0040_0010 = 0x0000_0001
+  0x0040_0014 = 0xDEAD_BEEF
+  0x0080_0028 = 0x0000_03F4
+DIAGNOSTIC_MSG: Vector mismatch on PIN_SCAN_OUT_4 at cycle 419204. Repeat count = 3.
+================================================================================

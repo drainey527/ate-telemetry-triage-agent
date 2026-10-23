@@ -1,0 +1,16 @@
+================================================================================
+ATE BURN-IN SYSTEM LOG - LOT_ID: INTL_7320_W04 - DATE: 2026-10-20
+================================================================================
+DUT_ID: 1 | SOCKET: 1 | DIB_REV: 3.2 | TESTER_HEAD: TH-01
+TEST_MODULE: HTOL_BURN_IN_STRESS | PATTERN_SET: MAX_POWER_DYN_LOAD
+CHUCK_TEMP: 85.0 C | TJ_BASE: 88.0 C | TJMAX: 124.6 C [CRITICAL OVERTEMP]
+VDD_NOM: 1.20 V | V_FORCE: 1.200 V | VDD_MIN: 1.160 V
+R_CONT: 120.5 mOhm
+FAIL_CYCLE: 18400
+FAIL_PINS: [PIN_TH_ALARM, PIN_PWR_GOOD]
+STATUS: EMERGENCY_THERMAL_SHUTDOWN_ASSERTED
+REGISTER_DUMPS:
+  0x0010_0004 = 0x8000_00FF
+  0x0010_0008 = 0x0000_007C
+DIAGNOSTIC_MSG: Junction sensor crossed safety trip (124.6 C > 105.0 C). Power kill fired.
+================================================================================
